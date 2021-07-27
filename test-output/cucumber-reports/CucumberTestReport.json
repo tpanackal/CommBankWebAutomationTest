@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a user and verify that the user is successfully added to the Leader board and after completing a Covid Challenge",
+        "description": "",
+        "id": "complete-covid-challenge-for-an-user;create-a-user-and-verify-that-the-user-is-successfully-added-to-the-leader-board-and-after-completing-a-covid-challenge",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3973552837,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have navigated to the Covid Game Website",
+            "match": {
+              "location": "StepDefinition.iHaveNavigatedToTheCovidGameWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8430747929,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create a user to join the CURE team",
+            "match": {
+              "location": "StepDefinition.iCreateAUserToJoinTheCURETeam()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13845506507,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I successfully complete one of the Covid Challenges",
+            "match": {
+              "location": "StepDefinition.iSuccessfullyCompleteOneOfTheCovidChallenges()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087372745,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to see the new user added to the leaderboard",
+            "match": {
+              "location": "StepDefinition.iShouldBeAbleToSeeTheNewUserAddedToTheLeaderboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Complete Covid Challenge for an user",
+    "description": "",
+    "id": "complete-covid-challenge-for-an-user",
+    "keyword": "Feature",
+    "uri": "CovidChallengeTest.feature"
+  }
+]

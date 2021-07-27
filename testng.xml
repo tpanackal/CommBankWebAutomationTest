@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CommBank Web Automation Test Suite" verbose="3"
+       thread-count="4" configfailurepolicy="continue">
+
+    <test name="CommBank Web Automation Test Chrome"  >
+            <parameter name="browser" value="chrome"/>
+            <classes>
+                <class name="com.runner.TestNGRunCucumberTest"/>
+            </classes>
+    </test>
+
+
+    <test name="CommBank Web Automation Test Firefox" >
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.runner.TestNGRunCucumberTest"/>
+        </classes>
+    </test>
+
+</suite>
